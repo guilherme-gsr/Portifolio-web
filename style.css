@@ -1,0 +1,70 @@
+@import url(./intro.css);
+
+@import url("https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Inconsolata:wght@200..900&family=Maven+Pro:wght@400..900&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  color: azure;
+}
+
+:root {
+  --primary-color-red: #e3646e;
+  --primary-color-purple: #bb72e9;
+  --primary-color-blue: #3996db;
+  --primary-color-green: #82bc4f;
+  --primary-color-yellow: #eabd5f;
+
+  --base-color-gray100: #0d0e11;
+  --base-color-gray-200: #16181d;
+  --base-color-gray-300: #292c34;
+  --base-color-gray-400: #878ea1;
+  --base-color-gray-500: #c0c4ce;
+  --base-color-gray-600: #e2e4e9;
+}
+
+.title-lg {
+  font-family: Asap;
+  font-size: 56px;
+  line-height: 120%;
+  font-weight: 700;
+  color: var(--base-color-gray-600);
+}
+
+.title-md {
+    font-family: Asap;
+  font-size: 24px;
+  line-height: 120%;
+  font-weight: 700;
+}
+
+.title-sm {
+    font-family: Asap;
+  font-size: 16px;
+  line-height: 120%;
+  font-weight: 700;
+}
+
+.subtitle {
+    font-family: Inconsolata;
+  font-size: 20px;
+  line-height: 120%;
+  font-weight: 400;
+}
+
+.text-sm {
+    font-family: Maven Pro;
+  font-size: 14px;
+  line-height: 140%;
+  font-weight: 400;
+  color: var(--base-color-gray-400);
+}
+
+.text-md{
+    font-family:Maven Pro;
+    font-size: 16px;
+    line-height: 140%;
+    font-weight: 400;
+}
+
