@@ -23,20 +23,20 @@ body {
     }
 
 
-    .header-projects{
-        margin-top: 72px;
-        width: 90%;
-        max-width: 1040px;
-        text-align: center;
-
-        p{
-         margin-bottom: 8px;   
-         color: var(--primary-color-red);
-        }
-
-    }
 }
 
+.header-projects{
+    margin-top: 72px;
+    width: 90%;
+    max-width: 1040px;
+    text-align: center;
+
+    p{
+     margin-bottom: 8px;   
+     color: var(--primary-color-red);
+    }
+
+}
 .grid-projects{
     margin-top: 56px;
     display: grid;
@@ -46,12 +46,14 @@ body {
 
     @media(max-width:1080px){
         height: 100%;
-        grid-template-columns: repeat(2, 1fr);;
+        grid-template-columns: repeat(2, 1fr);
+        margin-bottom: 100px;
     }
 
     @media(max-width:830px){
         height: 100%;
         grid-template-columns: 1fr;
+        margin-bottom: 50px;
     }
     
 }

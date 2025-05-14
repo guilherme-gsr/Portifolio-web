@@ -1,0 +1,44 @@
+.services {
+  height: 480px;
+  width: 100vw;
+  background-color: var(--base-color-gray100);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+
+  .header-projects {
+    margin-inline: auto;
+  }
+
+  .grid-services {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-inline: auto;
+    gap: 24px;
+    margin-top: 56px;
+  }
+
+  .services-card {
+    width: 280px;
+    height: 155px;
+    border: 2px solid var(--base-color-gray-200);
+    border-radius: 12px;
+
+  }
+
+  div{
+    margin-left: 20px;
+  }
+
+  .services-img{
+    margin-top: 20px;
+    margin-bottom: 27.5px;
+    
+  }
+
+  .services-txt{
+    h4{
+        margin-bottom:8px ;
+    }
+  }
+}
