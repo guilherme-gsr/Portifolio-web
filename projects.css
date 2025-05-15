@@ -3,10 +3,10 @@ body {
 }
 
 .projects{
-
+    
     background-color: var(--base-color-gray-200);
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -17,10 +17,7 @@ body {
 
     }
 
-    @media(max-width:830px){
-        height: 100%;
-       
-    }
+   
 
 
 }
