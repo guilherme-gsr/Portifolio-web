@@ -41,6 +41,10 @@ body {
     gap: 24px;
     flex-wrap: wrap;
 
+    @media(max-height:800px){
+        margin-bottom: 55px;
+    }
+
     @media(max-width:1080px){
         height: 100%;
         grid-template-columns: repeat(2, 1fr);
