@@ -6,6 +6,12 @@
   display: flex;
   flex-direction: column;
 
+     @media(max-width:1080px){
+        height: 800px;
+    }
+
+
+
   .header-projects {
     margin-inline: auto;
   }
@@ -16,6 +22,13 @@
     margin-inline: auto;
     gap: 24px;
     margin-top: 56px;
+   
+
+     @media(max-width:1080px){
+        grid-template-columns: 1fr;
+        align-content: center;
+    }
+
   }
 
   .services-card {
@@ -26,17 +39,15 @@
 
   }
 
-  div{
-    margin-left: 20px;
-  }
-
   .services-img{
     margin-top: 20px;
     margin-bottom: 27.5px;
+    margin-left: 20px;
     
   }
 
   .services-txt{
+    margin-left: 20px;
     h4{
         margin-bottom:8px ;
     }

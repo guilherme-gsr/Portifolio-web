@@ -1,0 +1,67 @@
+.contact {
+  background-image: url(./assets/img-background/Background_Contacts.png);
+  overflow: hidden;
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw;
+  min-height: 783px;
+
+  .header-projects {
+    margin-top: 128px;
+    margin-inline: auto;
+  }
+
+  p {
+    color: var(--primary-color-purple);
+    margin-bottom: 8px;
+  }
+
+  h2 {
+    margin-bottom: 8px;
+  }
+
+  .link {
+    margin-top: 48px;
+    width: 400px;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    .link-card {
+      background-color: var(--base-color-gray-300);
+      border-radius: 8px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      width: 400px;
+      height: 68px;
+    }
+
+      
+      .link-logo{
+          display: flex;
+          gap: 12px;
+          flex-direction: row;
+          align-items: center;
+          margin: 20px;
+          
+          
+        }
+        
+        .link-arrow{
+            margin-right: 20px;
+        }
+    }
+}
+
+
+.link-card:hover{
+  border: 1px solid var(--primary-color-blue);
+
+  .link-logo > img{
+    color: aqua;
+  }
+}
