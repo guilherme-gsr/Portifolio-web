@@ -85,3 +85,8 @@ body {
         ;
     }
 }
+
+.project-card:hover{
+    outline: 0.1px solid var(--base-color-gray-400);
+
+}

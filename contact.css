@@ -59,7 +59,7 @@
 
 
 .link-card:hover{
-  border: 1px solid var(--primary-color-blue);
+  outline: 1px solid var(--primary-color-blue);
 
   .link-logo > img{
     color: aqua;

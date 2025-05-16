@@ -131,7 +131,7 @@
 
 .down{
 
-    margin-top: 110px;
+    margin-top: 135px;
 
   
 
@@ -147,7 +147,7 @@
 
    
 
-      @media(max-height:796px){
+      @media(max-height:842px){
         margin-top: 55px;
     }
 
