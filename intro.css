@@ -65,7 +65,8 @@
             position: relative;
 
             >img{
-                margin-top: 5px;
+                margin-top: 6.5px;
+                margin-right: 1px;
             }
 
             .vector-code{
